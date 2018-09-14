@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.nguyentrang.userinterface">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2" />
+        <activity
+            android:name=".Main5Activity"
+            android:label="@string/title_activity_main5" />
+        <activity
+            android:name=".Main6Activity"
+            android:label="@string/title_activity_main6" />
+        <activity
+            android:name=".RelativeLayout"
+            android:label="@string/title_activity_relative_layout" />
+        <activity android:name=".RelativeLayout2Activity" />
+        <activity android:name=".RelativeLayout3Activity" />
+        <activity android:name=".Kethop1Activity" />
+        <activity android:name=".Kethop2Activity" />
+        <activity android:name=".Kethop3Activity" />
+        <activity android:name=".Kethop4Activity" />
+        <activity android:name=".Kethop5Activity" />
+        <activity android:name=".Kethop6Activity"></activity>
+    </application>
+
+</manifest>
